@@ -136,3 +136,38 @@ h3 {
 
 	font-style: normal;
 }
+
+/*      Фильтр портфолио      */
+
+.nav-portfolio .link {
+	color: var(--title-text-color);
+	background-color: var(--secondary-bg-color);
+
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.62;
+}
+
+.nav-portfolio .link:hover,
+.nav-portfolio .link:focus {
+	color: var(--primary-bg-color);
+	background-color: var(--assent-color);
+}
+
+/*          Примері работа       */
+
+.examples h2 {
+	color: var(--title-text-color);
+
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 2;
+	letter-spacing: 0.06em;
+}
+
+.examples p {
+	color: var(--primary-text-color);
+
+	font-size: 16px;
+	line-height: 1.87;
+}
