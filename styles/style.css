@@ -49,6 +49,8 @@ h3 {
 	list-style: none;
 }
 
+/*             Header              */
+
 .logo {
 	color: var(--logo-color);
 
@@ -83,6 +85,8 @@ h3 {
 	color: var(--assent-color);
 }
 
+/*             Hero              */
+
 .hero-title {
 	color: var(--secondary-text-color);
 
@@ -102,14 +106,15 @@ h3 {
 	letter-spacing: 0.06em;
 }
 
-.features {
-}
+/*             Team              */
 
 .team {
 	background-color: var(--secondary-bg-color);
 
 	font-size: 16px;
 }
+
+/*             Footer              */
 
 .footer {
 	color: rgba(255, 255, 255, 0.6);
@@ -120,6 +125,14 @@ h3 {
 	color: var(--secondary-text-color);
 }
 
-.address-street {
+.contacts-street {
 	color: var(--secondary-text-color);
+
+	font-style: normal;
+}
+
+.contacts .link {
+	color: rgba(255, 255, 255, 0.6);
+
+	font-style: normal;
 }
