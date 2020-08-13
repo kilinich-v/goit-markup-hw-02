@@ -20,24 +20,8 @@ body {
 	letter-spacing: 0.03em;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	color: var(--title-text-color);
-}
-
-h2 {
-	line-height: 1.16;
-}
-
-h3 {
-	line-height: 1.18;
-}
-
-.accent {
+.accent,
+.site-nav .accent {
 	color: var(--assent-color);
 }
 
@@ -54,7 +38,7 @@ h3 {
 .logo {
 	color: var(--logo-color);
 
-	font-family: Raleway;
+	font-family: Raleway, sans-serif;
 	font-weight: 700;
 	font-size: 26px;
 	line-height: 1.19;
@@ -67,6 +51,10 @@ h3 {
 	line-height: 1.14;
 	letter-spacing: 0.02em;
 	text-decoration: none;
+}
+
+.site-nav .accent {
+	color: var(--assent-color);
 }
 
 .contacts-nav {
@@ -100,10 +88,19 @@ h3 {
 .hero-btn {
 	color: var(--secondary-text-color);
 
+	font-family: inherit;
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 1.87;
 	letter-spacing: 0.06em;
+}
+
+/*      Чем мы занимаемся       */
+
+.activity-title {
+	color: var(--title-text-color);
+
+	line-height: 1.16;
 }
 
 /*             Team              */
@@ -112,6 +109,16 @@ h3 {
 	background-color: var(--secondary-bg-color);
 
 	font-size: 16px;
+}
+
+.team-title {
+	color: var(--title-text-color);
+
+	line-height: 1.16;
+}
+
+.team-name {
+	line-height: 1.18;
 }
 
 /*             Footer              */
@@ -125,20 +132,17 @@ h3 {
 	color: var(--secondary-text-color);
 }
 
-.contacts-street {
-	color: var(--secondary-text-color);
-
-	font-style: normal;
-}
-
-.contacts .link {
+.contacts a {
 	color: rgba(255, 255, 255, 0.6);
-
-	font-style: normal;
 }
 
-/*      Фильтр портфолио      */
+.contacts .contacts-street {
+	color: var(--secondary-text-color);
+}
 
+/*      Страница портфолио      */
+
+/*      Навигация портфолио      */
 .nav-portfolio .link {
 	color: var(--title-text-color);
 	background-color: var(--secondary-bg-color);
@@ -154,9 +158,9 @@ h3 {
 	background-color: var(--assent-color);
 }
 
-/*          Примері работа       */
+/*          Примеры работ       */
 
-.examples h2 {
+.examples .examples-title {
 	color: var(--title-text-color);
 
 	font-weight: 700;
